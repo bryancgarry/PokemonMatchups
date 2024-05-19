@@ -1,1 +1,20 @@
-print("Welcome to PokemonMatchups!")
+#------------------------------------------------------------#
+# PokemonMatchups
+# Author: Bryan Garry
+# Date: [May 19th, 2024 -> May 25th, 2024]
+# Python v3.9.6
+#------------------------------------------------------------#
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+def PokemonMatchups():
+    x = np.linspace(0, 2 * np.pi, 200)
+    y = np.sin(x)
+
+    fig, ax = plt.subplots()
+    ax.plot(x, y)
+    plt.show()
+
+
+PokemonMatchups()
